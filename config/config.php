@@ -15,6 +15,7 @@ require_once BASE_PATH . '/helpers/helpers.php';
 | DATABASE CONFIGURATION
 |--------------------------------------------------------------------------
  */
+$conn = new mysqli('localhost', 'root', '', 'hadi');
 
 define('DB_HOST', "localhost");
 define('DB_USER', "root");
